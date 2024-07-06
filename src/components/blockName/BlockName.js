@@ -3,7 +3,7 @@ import styles from '../blockName/BlockName.module.scss';
 function BlockName() {
     return (
         <div>
-            <h1 className={styles.nameHeader}>Do you want to Learn more About cryptocurrencies <br/> <span className={styles.textColor}>quickly and easily ?</span></h1>
+            <h1 className={styles.nameHeader}>Do you want to Learn more <br/> About cryptocurrencies <br/> <span className={styles.textColor}>quickly and easily ?</span></h1>
             <p className={styles.textHeader}>Subscribe to our channel to learn more</p>
             <ul className={styles.blockList}>
                 <li>

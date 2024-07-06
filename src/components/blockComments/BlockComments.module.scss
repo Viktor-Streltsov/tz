@@ -1,0 +1,97 @@
+.blockComments {
+  margin-top: 172px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  position: relative;
+
+  &:nth-child(0) {
+    margin-left: -127px;
+  }
+}
+
+.blockProfile, .marginLeft {
+  width: 288px;
+  position: relative;
+  z-index: 2;
+  padding: 16px 0 16px 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  background: #302D2D57;
+  box-shadow: 0 0 0 1px rgba(124, 111, 207, 0.194), 0 0 0 1px rgba(116, 174, 170, 0.19), 0 0 0 1px rgba(111, 207, 151, 0.2);
+}
+
+.marginLeft {
+  margin-left: -127px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.imgProfile {
+  display: grid;
+  place-items: center;
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #F2F2F2;
+  margin: 0;
+}
+
+.email {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #F2F2F266;
+  margin: 0;
+}
+
+.textProfile {
+  width: 225px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+  text-align: left;
+  color: #F2F2F2;
+  margin: 16px 0 0;
+}
+
+.bitcoin {
+  width: 312px;
+  height: 352px;
+  position: absolute;
+  z-index: 1;
+  top: -170px;
+}
+
+.ethereum {
+  width: 312px;
+  height: 408px;
+  position: absolute;
+  z-index: 1;
+  bottom: -105px;
+  left: -5px;
+}
+
+.litecoin {
+  width: 312px;
+  height: 324px;
+  position: absolute;
+  z-index: 1;
+  left: -245px;
+  top: 105px;
+}
