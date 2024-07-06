@@ -2,8 +2,9 @@ import styles from '../blockName/BlockName.module.scss';
 
 function BlockName() {
     return (
-        <div>
+        <div className={styles.content}>
             <h1 className={styles.nameHeader}>Do you want to Learn more <br/> About cryptocurrencies <br/> <span className={styles.textColor}>quickly and easily ?</span></h1>
+            <h1 className={styles.nameHeaderMobile}>Do you want to <br/> Learn more <br/> About <br/> cryptocurrenc <br/> ies <span className={styles.textColor}>quickly and <br/> easily ?</span></h1>
             <p className={styles.textHeader}>Subscribe to our channel to learn more</p>
             <ul className={styles.blockList}>
                 <li>

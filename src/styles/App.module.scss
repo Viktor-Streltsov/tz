@@ -1,4 +1,12 @@
+@import "mixsins";
+
 .content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  padding: 0 62px;
+
+  @include mobile {
+    padding: 0 16px;
+  }
 }

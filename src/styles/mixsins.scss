@@ -1,0 +1,7 @@
+$breakpoint-sm: 790px;
+
+@mixin mobile {
+  @media screen and (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
