@@ -6,10 +6,12 @@
   align-items: center;
   column-gap: 20px;
   margin-top: 25px;
+  padding: 0 62px;
 
   @include mobile {
     column-gap: 16px;
     margin-top: 18px;
+    padding: 0 16px;
     justify-content: center;
   }
 }

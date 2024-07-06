@@ -1,8 +1,18 @@
 @import "../../styles/mixsins";
 
 .content {
+  position: relative;
+  z-index: 5;
   @include mobile {
     width: 100%;
+  }
+}
+
+.nameHeaderMobile {
+  display: none;
+
+  @include mobile {
+    display: block;
   }
 }
 
@@ -57,7 +67,7 @@
 
 .blockList {
   max-width: 554px;
-  text-line-through: none;
+  list-style-type: none;
   padding: 0;
   margin-top: 88px;
   display: flex;
@@ -66,7 +76,7 @@
   align-items: center;
 
   @include mobile {
-    margin-top: 32px;
+    margin: 32px auto 0;
   }
 }
 
@@ -117,6 +127,6 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    margin-top: 28px;
+    margin: 28px auto 0;
   }
 }

@@ -5,14 +5,9 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  position: relative;
 
   &:nth-child(0) {
     margin-left: -127px;
-  }
-
-  @include mobile {
-    display: none;
   }
 }
 
@@ -25,6 +20,10 @@
   border: 1px solid;
   background: #302D2D57;
   box-shadow: 0 0 0 1px rgba(124, 111, 207, 0.194), 0 0 0 1px rgba(116, 174, 170, 0.19), 0 0 0 1px rgba(111, 207, 151, 0.2);
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .marginLeft {
@@ -81,7 +80,14 @@
   height: 352px;
   position: absolute;
   z-index: 1;
-  top: -170px;
+  right: 50px;
+
+  @include mobile {
+    width: 136px;
+    height: 188px;
+    top: 5px;
+    right: 46px;
+  }
 }
 
 .ethereum {
@@ -90,7 +96,15 @@
   position: absolute;
   z-index: 1;
   bottom: -105px;
-  left: -5px;
+  right: -5px;
+
+  @include mobile {
+    width: 136px;
+    height: 214px;
+    bottom: 0;
+    top: 200px;
+    right: 35px;
+  }
 }
 
 .litecoin {
@@ -98,6 +112,13 @@
   height: 324px;
   position: absolute;
   z-index: 1;
-  left: -245px;
-  top: 105px;
+  top: 275px;
+  right: 240px;
+
+  @include mobile {
+    width: 140px;
+    height: 160px;
+    top: 60px;
+    right: 155px;
+  }
 }
